@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    padding: 0px 80px;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+.space_padding{
+    padding: 0px 100px;
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header start */
+
+.header{
+    background: rgba(0, 0, 0, 0.894);
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 1;
+}
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.logo a{
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+.nav_manu a{
+    font-size: 16px;
+    margin-left: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+.nav_manu a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.nav_manu a:hover::after{
+    width: 95%;
+
+}
+.header_part{
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("../img/hero-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: #fff;
+    padding-top: 22%;
+    font-size: 38px;
+    font-weight: 600;
+    word-spacing: 1px;
+    
+}
+.content p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+
+/* header end */
+
+
+/* About me start */
+.bg_space{
+    padding: 0px 100px;
+    margin-top: 50px;
+   
+}
+.hero_content{
+    display: flex;
+    background: #ffffff;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.first_part{
+    width: 50%;
+}
+.move{
+    display: flex;
+}
+.personal_img img{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.personal_content > p{
+    margin-left: 50px;
+    margin-bottom: 17px;
+    font-weight: 400;
+}
+.skills h1{
+    margin-top: 25px;
+}
+
+.progress_html{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.progressbar{
+    background-color: #cde1f8;
+    width: 90%;
+    border-radius: 8px;
+}
+.skill{
+    background-color: #0078ff;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.html{
+    width: 90%;
+    margin-top: 5px;
+}
+.css{
+    width: 80%;
+    margin-top: 5px;
+}
+.js{
+    width: 70%  ; 
+    margin-top: 5px;   
+}
+.php{
+    width: 50%;
+    margin-top: 5px;
+}
+
+
+.second_part{
+    margin-left: 20px;
+    width: 50%;
+}
+.about_me{
+    font-size: 28px;
+    font-weight: 500;
+    
+
+}
+.about_me::after{
+    content: "";
+    background: #0078ff;
+    height: 2px;
+    width: 135px;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.about_me:hover::after{
+    background: #cde1f8;
+}
+.second_part_content p{
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    word-wrap: normal;
+    word-spacing: 2px;
+    text-align: justify;
+}
+/* Abpout me end */
+
+/* service start */
+.service{
+   text-align: center;
+   margin-top: 50px;
+}
+.service h2{
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.service p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.service p::after{
+    content: "";
+    background: #0078ff;
+    height: 2px;
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+.service p:hover::after{
+    background: #cde1f8;
+}
+
+.service_list{
+    padding: 0 100px;
+}
+
+.card_list{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50PX;
+}
+.carditems{
+    padding: 0px 10px;
+    
+
+}
+.card{
+    background: #fff;
+    padding: 15px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: 2s ease-in-out;
+   
+}
+.card_style{
+    height: 150px;
+    width: 150px;
+    background: #0078ff;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 95px;
+    transition: 2s ease-in-out;
+
+
+}
+.circle1{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 120px;
+    width: 120px;
+    background: #fff;
+    border-radius: 50%; 
+    position: absolute;
+    transition: 2s ease-in-out;
+
+    
+    
+}
+.circle1 i{
+    font-size: 35px;
+   margin-top: 40px;
+   
+}
+
+.card h3{
+    margin-top: 15px;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+    text-align:center;
+}
+
+.carditems:hover .card_style{
+    background: #cde1f8;
+}
+.carditems:hover .circle1{
+    background: #0078ff;
+}
+.carditems:hover .circle1 i{
+ color: #ffffff;
+}
+
+/* About end */
+
+/* counter start */
+.top{
+    margin-top: 50px;
+    position: relative;
+}
+.move_middle{
+    margin-bottom: 150px;
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+ .move_element{
+    display: flex;
+    margin-top: 160px;
+    
+    justify-content: space-around;
+}
+
+.element{
+    text-align: center;
+}
+ .icon{
+    font-size: 50px;
+    position: relative;
+ }
+.element i{
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 15px;
+}
+.element h4{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+.element p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    word-spacing: 1px;
+    word-break: 2px;
+}
+/* Counter end */
